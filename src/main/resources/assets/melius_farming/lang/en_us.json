@@ -1,0 +1,35 @@
+{
+  "block.melius_farming.farmland": "Farmland",
+
+  "item.melius_farming.watering_can": "Watering Can",
+  "item.melius_farming.watering_can.water_level": "Water Level: %s/%s",
+
+  "tooltip.meliusfarming.show_more": "Hold %d to show more",
+
+  "item.melius_farming.crop.suitable": "Suitable Soil",
+  "item.melius_farming.vigor_suitable": "Vigor: %d - %d",
+  "item.melius_farming.anima_suitable": "Anima: %d - %d",
+  "item.melius_farming.corpus_suitable": "Corpus: %d - %d",
+  "item.melius_farming.ideal": "Ideal: %d %d %d",
+  "item.melius_farming.change": "Change: %d %d %d",
+
+  "config.jade.plugin_melius_farming.regrowth_option": "Show Regrowth Day Count",
+  "config.jade.plugin_melius_farming.growth_option": "Show Growth Day Count",
+
+  "jade.melius_farming.regrowth": "Regrows In %d Days",
+  "jade.melius_farming.no_regrowth": "Cannot Currently Regrow",
+  "jade.melius_farming.no_growth": "Cannot Grow",
+  "jade.melius_farming.growth": "Fully Grown In %d Days",
+  "jade.melius_farming.soil_quality": "Soil Quality: ",
+  "jade.melius_farming.quality_suitable": "Suitable",
+  "jade.melius_farming.quality_ideal": "Ideal",
+  "jade.melius_farming.quality_poor": "Poor",
+  "jade.melius_farming.soil_quality_saturated": "Saturated",
+  "jade.melius_farming.soil_quality_high": "High",
+  "jade.melius_farming.soil_quality_regular": "Normal",
+  "jade.melius_farming.soil_quality_low": "Low",
+  "jade.melius_farming.soil_quality_none": "Deprived",
+  "jade.melius_farming.vigor_state": "Vigor: %d",
+  "jade.melius_farming.anima_state": "Anima: %d",
+  "jade.melius_farming.corpus_state": "Corpus: %d"
+}

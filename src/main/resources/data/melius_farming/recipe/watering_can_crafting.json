@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "A  ",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "melius_farming:watering_can",
+    "count": 1
+  }
+}

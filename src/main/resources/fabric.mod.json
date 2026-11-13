@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "melius_farming",
+	"version": "${version}",
+	"name": "Melius Farming",
+	"description": "Makes farming much more like stardew valley.",
+	"authors": [
+		"TallyIsManyThings"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/melius_farming/icon.png",
+	"environment": "*",
+	"accessWidener": "melius_farming.classtweaker",
+	"entrypoints": {
+		"main": [
+			"tallyismanythings.meliussupport.MeliusSupport"
+		],
+		"client": [
+			"tallyismanythings.meliussupport.client.MeliusSupportClient"
+		],
+		"preLaunch": [
+			"tallyismanythings.meliussupport.MeliusSupport"
+		],
+		"jade": [
+			"tallyismanythings.meliussupport.addons.jade.MeliusFarmWaliaPlugin"
+		]
+	},
+	"mixins": [
+		"melius-support.mixins.json",
+		{
+			"config": "melius-support.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": ">=3.6.1+1.21-fabric"
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "identifier": "farm_and_charm:oat_crop",
+  "regrowth": 0,
+  "vigor_suitable": {
+    "max_inclusive": 4,
+    "min_inclusive": 0,
+    "type": "minecraft:uniform"
+  },
+  "anima_suitable": {
+    "max_inclusive": 4,
+    "min_inclusive": 0,
+    "type": "minecraft:uniform"
+  },
+  "corpus_suitable": {
+    "max_inclusive": 4,
+    "min_inclusive": 2,
+    "type": "minecraft:uniform"
+  },
+  "ideal_soil": [4,0,3],
+  "soil_change": [0, 0, -1]
+}

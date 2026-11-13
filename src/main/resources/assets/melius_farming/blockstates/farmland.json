@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "moisture=0": {
+      "model": "melius_farming:block/farmland"
+    },
+    "moisture=1": {
+      "model": "melius_farming:block/farmland"
+    },
+    "moisture=2": {
+      "model": "melius_farming:block/farmland"
+    },
+    "moisture=3": {
+      "model": "melius_farming:block/farmland"
+    },
+    "moisture=4": {
+      "model": "melius_farming:block/farmland"
+    },
+    "moisture=5": {
+      "model": "melius_farming:block/farmland"
+    },
+    "moisture=6": {
+      "model": "melius_farming:block/farmland"
+    },
+    "moisture=7": {
+      "model": "melius_farming:block/farmland_moist"
+    }
+  }
+}

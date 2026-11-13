@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "package": "tallyismanythings.meliussupport.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "tallyismanythings.meliussupport.MeliusMixinPlugin",
+  "mixins": [
+    "AbstractBlockMixin",
+    "AttachedStemBlockMixin",
+    "BonemealItemMixin",
+    "CropBlockMixin",
+    "PitcherCropMixin",
+    "StemBlockMixin",
+    "accessors.LetsFarmClimbingCropAccessor",
+    "accessors.StemBlockAccessor",
+    "addons.herbalbrew.HerbalBrewCoffeeMixin",
+    "addons.icyhorse.IcyHorsePloughMixin",
+    "addons.letsbrew.LetsBrewHops",
+    "addons.letsfarm.LetsFarmClimbingCrop",
+    "addons.letsfarm.LetsFarmLettuce",
+    "addons.letsfarm.LetsFarmOnion",
+    "addons.letsfarm.LetsFarmStrawberry",
+    "addons.letsfarm.LetsFarmTomato",
+    "addons.supplementaries.SupplementariesFlaxMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

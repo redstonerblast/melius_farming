@@ -1,0 +1,21 @@
+{
+  "identifier": "minecraft:torchflower_crop",
+  "regrowth": 0,
+  "vigor_suitable": {
+    "max_inclusive": 3,
+    "min_inclusive": 1,
+    "type": "minecraft:uniform"
+  },
+  "anima_suitable": {
+    "max_inclusive": 1,
+    "min_inclusive": 0,
+    "type": "minecraft:uniform"
+  },
+  "corpus_suitable": {
+    "max_inclusive": 4,
+    "min_inclusive": 3,
+    "type": "minecraft:uniform"
+  },
+  "ideal_soil": [2,0,4],
+  "soil_change": [0,4,-4]
+}
